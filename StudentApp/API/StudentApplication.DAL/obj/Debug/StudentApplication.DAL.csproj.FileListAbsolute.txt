@@ -1,0 +1,14 @@
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\StudentApplication.DAL.dll.config
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\StudentApplication.DAL.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\StudentApplication.DAL.pdb
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\EntityFramework.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\StudentApplication.DTO.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\StudentApplication.DTO.pdb
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\EntityFramework.xml
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\obj\Debug\StudentApplication.DAL.csprojAssemblyReference.cache
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\obj\Debug\StudentApplication.DAL.csproj.CoreCompileInputs.cache
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\obj\Debug\StudentApplication.DAL.csproj.CopyComplete
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\obj\Debug\StudentApplication.DAL.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DAL\obj\Debug\StudentApplication.DAL.pdb

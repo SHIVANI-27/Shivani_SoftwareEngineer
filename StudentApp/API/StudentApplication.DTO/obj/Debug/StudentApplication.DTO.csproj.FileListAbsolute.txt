@@ -1,0 +1,6 @@
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\bin\Debug\StudentApplication.DTO.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\bin\Debug\StudentApplication.DTO.pdb
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\obj\Debug\StudentApplication.DTO.csprojAssemblyReference.cache
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\obj\Debug\StudentApplication.DTO.csproj.CoreCompileInputs.cache
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\obj\Debug\StudentApplication.DTO.dll
+C:\Users\shivani.Dahiya\source\repos\StudentApplication\StudentApplication.DTO\obj\Debug\StudentApplication.DTO.pdb

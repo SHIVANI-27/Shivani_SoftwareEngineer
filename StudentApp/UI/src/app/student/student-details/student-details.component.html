@@ -1,0 +1,57 @@
+<div class="new-assesment-area">
+<form [formGroup]="CreateForm" novalidate>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="form-box">
+                <label>First Name</label>
+                <input  class="form-cotrol" formControlName="FirstName" type="text" placeholder="First Name">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="form-box">
+                <label>Last Name</label>
+                <input  class="form-cotrol" formControlName="LastName" type="text" placeholder="Last Name">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="form-box">
+                <label>Class</label>
+                <input  class="form-cotrol" formControlName="Class" type="text" placeholder="Class">
+            </div>
+        </div>
+    </div>
+
+    <div  formArrayName="SubjectDetails" *ngFor="let item of CreateForm.get('SubjectDetails')['controls']; let i = index " class="col-md-12 col-lg-12 inline-divs">
+        <div  [formGroupName]="i" class="form-group col-md-10 col-lg-10 inline-divs"  >
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-box">
+                        <label>Subject</label>
+                        <input  class="form-cotrol" formControlName="Subject" type="text" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="form-box">
+                        <label>Marks</label>
+                        <input  class="form-cotrol" formControlName="Marks" type="text" placeholder="Marks">
+                    </div>
+                </div>
+        </div>
+    </div>
+  
+</div>
+<div class="create-new-btn" style="    position: relative;
+/* right: 185px; */
+left: 987px;
+top: -42px;"><a (click)="addNewSub()">ADD</a></div>
+</form>
+<div class="create-new-row">
+    <div class="create-new-btn"><a style="    position: relative;
+        right: 406px;
+        top: 41px;" (click)="save()">Save</a></div>
+</div>
+</div>

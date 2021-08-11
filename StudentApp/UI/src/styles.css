@@ -1,0 +1,79 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+    background-color: #fefeff;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+section.inner-contaienr {
+    padding: 3px 15px 15px;
+    margin-bottom: 40px;
+    margin-top: 72px;
+}
+
+.list-result-container {
+    padding: 15px 0;
+}
+
+.mainThead{
+    background: #26418f;
+    color: white;
+}
+.viewtxt {
+    cursor: pointer;
+    padding: 0 5px;
+    color: #25408e;
+}
+
+.viewtxt.borderright {
+    border-right: solid 1px #25408e;
+}
+
+.create-new-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-new-btn a {
+    background: #284390;
+    color: #fff!important;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.new-assesment-area .form-box {
+    padding: 5px 0;
+}
+
+.new-assesment-area .form-box label {
+    display: block;
+}
+
+.new-assesment-area .form-box input {
+    width: 100%;
+    border: 1px solid #bbc2c8;
+    height: 35px;
+    padding: 5px;
+}
+
+.new-assesment-area .form-box label {
+    display: block;
+    color: #889bac;
+    font-size: 14px;
+    font-weight: 500;
+}
+.new-assesment-area {
+    border: solid 1px #ebebeb;
+    padding: 5px 20px 10px;
+    background: #fafbff;
+}

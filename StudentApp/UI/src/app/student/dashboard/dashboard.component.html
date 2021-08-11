@@ -1,0 +1,54 @@
+<section  class="inner-contaienr">
+    <div class="create-new-row">
+        <div style="position: relative;
+        /* left: -1px; */
+        right: 790px;">
+            <input  class="form-cotrol" [(ngModel)]="search"  type="text" placeholder="Search"></div>
+            <div style="position: relative;
+        right: 700px; width: 15%;">
+          <select style="    color: #fff;
+          background-color: #26418f;
+          border-color: #26418f;
+          width: 100%;
+          height: 89%;" class="form-cotrol"   name="Filter" 
+          (change)="sortList($event.target.value)"
+          >
+            <option *ngFor="let x of filteBy" [value]="x.name">{{x.name}}</option>  
+          </select>
+          </div>
+        <div class="create-new-btn"><a (click)="navigate()">Add Student</a></div>
+    </div>
+    <div class="list-result-container">
+        <div class="db-table-area table-area">
+            <div class="table-responsive ">
+                <table class="table responsive-table">
+                    <thead class="mainThead">
+                        <tr>
+                            <th style="width: 12%;">Id</th>
+                            <th style="width: 20%;">First Name</th>
+                            <th style="width: 20%;">Last Name</th>
+                            <th style="width: 10%;">Class</th>
+                            <th style="width: 13%;">Subject</th>
+                            <th style="width: 10%;">Marks</th>
+                            <th style="width: 15%;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr *ngFor="let student of studentListToShow | customerFilter:search;">
+                            <td hidden>{{student.ParentId}}</td>
+                            <td style="width: 12%;">{{student.ID}}</td>
+                            <td style="width: 20%;">{{student.FirstName}}</td>
+                            <td style="width: 20%;">{{student.LastName}}</td>
+                            <td style="width: 10%;">{{student.Class}}</td>
+                            <td style="width: 13%;">{{student.Subject}}</td>
+                            <td style="width: 10%;">{{student.Marks}}</td>
+                            <td style="width: 15%;">
+                                <span (click)="edit(student)" class="viewtxt borderright">Edit</span>
+                                <span class="viewtxt" (click)="delete(student)">Delete</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
